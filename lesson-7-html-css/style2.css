@@ -1,0 +1,15 @@
+li [href$=html] {
+    color: blue;
+}
+
+li [href*=yandex] {
+    color: orange;
+}
+
+li [href*=google] {
+    color: gray;
+}
+
+* {
+    font-weight: bold;
+}
