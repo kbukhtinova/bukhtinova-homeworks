@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    padding-right: 0;
+}
+td {
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #DCEBF7;
+}
+
+td:nth-child(2n+1) {
+    background-color: #F2F3DD;
+}
+
+tr:nth-child(odd) td:first-child {
+    background-color: white;
+}
+
+tr:nth-child(even) td:first-child {
+    background-color: #DCEBF7;
+}

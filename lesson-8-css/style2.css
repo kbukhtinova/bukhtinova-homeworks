@@ -1,32 +1,42 @@
 nav {
     background-color: #A64DFF;
+    width: 1030px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
 }
 
-ul li {
-    display: inline;
+nav li {
+    display: inline-block;
+    line-height: 40px;
     color: white;
     font-family: Oswald;
-    padding: 15px;
+    font-size: 18px;
+    padding-right: 13px;
+    padding-left: 13px;
 }
 
-a {
+nav li:last-child {
+    text-align: right;
+    margin-right: 40px;
+}
+
+nav a {
     text-decoration: none;
     color: white;
 }
 
-li:hover {
+nav li:hover {
     background-color: #EEEEEE;
 }
 
-a:hove {
-    background-color: #EEEEEE;
+nav li:hover > a {
     color: #A19B96;
 }
 
 li:last-child {
-    text-align: right;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
 }
