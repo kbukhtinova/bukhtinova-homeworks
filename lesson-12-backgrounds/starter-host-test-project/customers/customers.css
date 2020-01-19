@@ -1,0 +1,68 @@
+main {
+    padding-top: 70px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section img {
+    width: 60%;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.3);
+}
+
+.customer {
+    width: 35%;
+}
+
+h1 {
+    color: #d83f32;
+}
+
+h5 {
+    color: #c0c4c2;
+}
+
+.customer_description {
+    margin-top: -15px;
+}
+
+.customer1 img,
+.customer1 div {
+    float: left;
+}
+
+.customer1 * {
+    float: right;
+}
+
+.customer1 div {
+    padding-top: 150px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customer1 p {
+    text-align: right;
+}
+
+.customer1 .customer-review {
+    margin-top: -290px;
+}
+
+.customer2 div,
+.customer2 img {
+    float: right;
+}
+
+.customer2 div {
+    padding-top: 150px;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+    clear: both;
+}
