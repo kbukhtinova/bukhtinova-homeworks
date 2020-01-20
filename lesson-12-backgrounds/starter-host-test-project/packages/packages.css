@@ -1,0 +1,104 @@
+body {
+    background-image: url("../images/plans-background.jpg");
+    background-size: 115%;
+    background-position: top;
+}
+
+main {
+    padding-top: 60px;
+}
+
+section {
+    width: 75%;
+    background-color: white;
+    border: 3px solid #9e8588;
+    margin: 20px 0;
+    background-color: rgba(177, 177, 175, 0.9);
+}
+
+section:last-of-type {
+    margin-bottom: -20px;
+}
+
+.recommended {
+    float: right;
+    background: #d93f33;
+    color: white;
+    margin: 10px 10px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.package1,
+.package3 {
+    margin-left: -3px;
+}
+
+
+.package2 {
+    float: right;
+    margin-right: -3px;
+}
+
+
+.package3 {
+    background-color: rgba(146, 111, 109, 0.9);
+    float: left;
+}
+
+.package_title {
+    padding: 25px 0 5px 15px;
+    font-weight: bold;
+}
+
+.package_description {
+    padding: 0 0 5px 15px;
+    font-weight: bold;
+}
+
+.package_benefits {
+    background-color: white;
+    width: 90%;
+    font-size: 15px;
+    color: #8f8f8d;
+    margin: 0 0 20px 15px;
+    padding: 8px 8px;
+    border: 1px solid #8f8f8d;
+}
+
+.package3 .package_title {
+    color: #fff8f9;
+}
+
+.package3 .package_description {
+    color: #b8a9a9;
+}
+
+.package3 .package_benefits {
+    color: #4b4b4b;
+    border: 1px solid #4b4b4b;
+}
+
+.package2 * {
+    float: right;
+}
+
+.package2 .package_title {
+    padding: 25px 15px 0 0;
+    margin-bottom: 5px;
+}
+
+.package2 .package_description {
+    padding: 0 15px 5px 0;
+}
+
+.package2 .package_benefits {
+    margin: 0 15px 20px 0;
+    padding: 8px 8px;
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}

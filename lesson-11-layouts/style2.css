@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.reviews {
+    box-sizing: inherit;
+    background-color: black;
+    height: 350px;
+    margin: 15px auto;
+}
+
+.title {
+    font-weight: 200;
+    font-size: 43px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #367ab4;
+    padding: 65px 0 60px 100px;
+    margin: 0;
+}
+
+.first-word {
+    color: #f3842a;
+}
+
+img,
+.ninja-review,
+.deer-review {
+    float: left;
+    margin: 0 auto;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    padding: 0 30px;
+    margin-top: -10px;
+}
+
+img.ninja-pic {
+    margin-left: 150px;
+}
+
+img.deer-pic {
+    margin-left: 20px;
+}
+
+.ninja-review,
+.deer-review {
+    background-color: #fff;
+    width: 400px;
+    height: 110px;
+    margin-top: -10px;
+}
+
+.name,
+.customer {
+    color: #5c7cac;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bolder;
+    float: right;
+    padding: 15px 20px 10px 20px;
+}
+
+.name::before {
+    content: "- ";
+}
+
+span:first-of-type:not(.first-word) {
+    float: left;
+}
+
+hr {
+    align: center;
+    width: 90%;
+    size: 2px;
+    border: 1px dashed black;
+    pa: -1px;
+}
+
+.review-text {
+    padding: 0 20px;
+    text-align: justify;
+    color: #98a5b5;
+    font-size: 15px;
+}
