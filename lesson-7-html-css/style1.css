@@ -1,0 +1,61 @@
+h1 {
+    color: orange;
+    text-align: right;
+    font-weight: bold;
+}
+
+em {
+    background-color: green;
+    color: white;
+}
+
+b {
+    font-size: 30px;
+    color: red;
+}
+
+h2 {
+    color: orange;
+}
+
+h2 ~ h2 {
+    color: blue;
+}
+
+span {
+    font-weight: bold;
+}
+
+.veg {
+    color: red;
+}
+
+.fruits {
+    color: green;
+}
+
+.fruits1 {
+    color: gray;
+}
+
+td [rowspan] {
+    font-weight: bold;
+    text-align: center;
+}
+
+.rows {
+    text-align: center;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+thead {
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+}
+
+.firstrow {
+    color: orange;
+}

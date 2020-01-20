@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task1</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Personal information:</legend>
+			<label>First name:<br>
+				<input type="text" name="name" value="Mickey" required>
+			</label>
+			<p>
+			<label>Last name:<br>
+				<input type="text" name="lastname" value="Mouse" required>
+			</label>
+		</p>
+		<p>
+			<label>Self-presentation:<br>
+				<input type="text" name="lastname" value="The cat was playing in the garden" required style="width: 200px; height: 150px;">
+			</label>
+		</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend>Car info (the brand):</legend>
+			<select>
+				<option selected value="Volvo">Volvo</option>
+				<option value="Saab">Saab</option>
+				<option value="Fiat">Fiat</option>
+				<option value="Audi">Audi</option>
+			</select>
+		</fieldset>
+		</p>
+		<p>
+		<fieldset>
+		<legend>Choose one:</legend>
+		<label>
+			<input type="radio" name="sex" value="Male" checked>
+			Male
+		</label>
+		<br>
+		<label>
+			<input type="radio" name="sex" value="Female">
+			Female
+		</label>
+		<br>
+		<label>
+			<input type="radio" name="sex" value="Other">
+			Other
+		</label>
+		</fieldset>
+		</p>
+		<p>
+		<fieldset>
+			<legend>Choose many:</legend>
+			<label>
+				<input type="checkbox" name="сheck" value="Bike">
+				I have a bike
+			</label>
+			<br>
+		  <label>
+		 	  <input type="checkbox" name="сheck" value="Car">
+			  I have a car
+		  </label>
+		</fieldset>
+		</p>
+		<p>
+			<input type="submit" value="Submit">
+			<input type="submit" value="Cancel">
+		</p>
+	</form>
+</body>
+</html>

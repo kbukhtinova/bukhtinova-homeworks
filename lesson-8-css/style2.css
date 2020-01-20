@@ -1,0 +1,42 @@
+nav {
+    background-color: #A64DFF;
+    width: 1030px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    font-family: Oswald;
+    font-size: 18px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+nav li:last-child {
+    text-align: right;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    background-color: #EEEEEE;
+}
+
+nav li:hover > a {
+    color: #A19B96;
+}
+
+li:last-child {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
