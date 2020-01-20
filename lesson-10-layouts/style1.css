@@ -1,0 +1,101 @@
+div {
+    margin: auto;
+}
+
+div.best-offer {
+    background-color: #ee8129;
+    width: 300px;
+    height: 480px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+p {
+    font-family: Arial;
+    text-align: center;
+    margin: auto;
+}
+
+p.best-headline {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+div.best-container {
+    background-color: white;
+    width: 98%;
+    height: 86%;
+}
+
+p.best-sub-headline {
+    font-size: 18px;
+    color: #3f4042;
+    padding: 15px;
+}
+
+p.best-price:not(span) {
+    font-size: 90px;
+    color: #35495a;
+    margin: 0;
+}
+
+sup.span-sup {
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+sub.span-sub {
+    font-size: 15px;
+    /*margin: -5px 0 80px 0;*/
+    padding: 5px 0 100px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 15px;
+    width: 90%;
+}
+
+ul li {
+    font-family: Arial;
+    color: #888c94;
+    font-size: 13px;
+    padding: 10px 30px;
+    margin: 2px;
+}
+
+li::before {
+    content: url("arrow.png");
+    padding: 10px;
+}
+
+li:nth-of-type(odd) {
+    background-color: #edf5fd;
+}
+
+li:nth-of-type(even) {
+    background-color: #f5f5f6;
+}
+
+p.best-button {
+    background-color: #ee8129;
+    width: 75%;
+    height: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #b3560b;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 20px;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
+
+p.best-button:hover {
+    cursor: pointer;
+}
